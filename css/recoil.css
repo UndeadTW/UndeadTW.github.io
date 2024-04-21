@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    float: left;
+    padding: 10px;
+    width: 35%;
+    margin-top: 250px;
+    margin-left: 40px;
+    background-color: #FEAD1B;
+    border-radius: 3rem;
+}
+
+body {
+    background-color: #29377E;
+}
+
+.barr {
+     background-color: #FEAD1B; 
+    color: #fff;
+    padding: 30px 0; 
+    position: fixed;
+    bottom: 0;
+    width: 110%;
+    left: -10px;
+}
+.csl {
+    width: 200px;
+    margin-top: 948px;
+    position: absolute;
+    left: -40px;
+}
+
+@font-face {
+    font-family: 'C S';
+    src: url(/fonts/cs_regular.ttf);
+    font-weight: bold;
+}
+
+.armas{
+    font-family: 'C S';
+    font-size: 70px;
+    margin-left: 150px;
+    position: fixed;
+    top: 50px;
+    color: #FEAD1B;
+    
+}
+
+.ak {
+    background: #FEAD1B;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 20px;
+    width: 200px;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+}
+
+.akdw video{
+    position: relative;
+    display: inline-block;
+}
+
+.akdwc {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: fixed;
+    left: 1500px;
+    top: 200px;
+  }
+
+.akdw:hover .akdwc {
+    display: block;
+  }
+
+.m4 {
+    background: #FEAD1B;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 20px;
+    width: 200px;
+    position: fixed;
+    top: 200px;
+    left: 300px;
+}
+
+.m4dwc {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: fixed;
+    left: 1500px;
+    top: 200px;
+  }
+
+.m4dw:hover .m4dwc {
+    display: block;
+  }
+
+.m4a4 {
+    background: #FEAD1B;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 20px;
+    width: 200px;
+    position: fixed;
+    top: 350px;
+    left: 50px;
+}
+
+.m4a4dwc {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: fixed;
+    left: 1500px;
+    top: 200px;
+  }
+
+.m4a4dw:hover .m4a4dwc {
+    display: block;
+  }
+
