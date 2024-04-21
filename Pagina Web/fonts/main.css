@@ -1,0 +1,58 @@
+.bg {
+    float: left;
+    padding: 10px;
+    width: 35%;
+    margin-top: 500px;
+    margin-left: 660px;
+    background-color: #FEAD1B;
+    border-radius: 3rem;
+}
+
+body {
+    background-color: #29377E;
+}
+
+.barr {
+     background-color: #FEAD1B; 
+    color: #fff;
+    padding: 30px 0; 
+    position: fixed;
+    bottom: 0;
+    width: 110%;
+    left: -10px;
+}
+.csl {
+    width: 200px;
+    margin-top: 937px;
+    position: absolute;
+    left: -40px;
+}
+
+@font-face {
+    font-family: 'C S';
+    src: url(/fonts/cs_regular.ttf);
+    font-weight: bold;
+}
+
+.strike{
+    font-family: 'C S';
+    font-size: 70px;
+    margin-left: 50px;
+    position: fixed;
+    top: 25px;
+    color: #FEAD1B;
+    text-shadow: 
+    -1px -1px 0 #fcfcfc,  
+    1px -1px 0 #3a4eff,
+    -1px 1px 0 #5770ff,
+    1px 1px 0 #4e51f0;
+}
+
+.txt {
+    font-family: 'C S';
+    font-size: 70px;
+    margin-left: 50px;
+    position: fixed;
+    top: 25px;
+    color: #FEAD1B;
+}

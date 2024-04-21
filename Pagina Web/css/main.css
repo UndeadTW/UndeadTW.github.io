@@ -1,0 +1,615 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'C S';
+    src: url(/fonts/cs_regular.ttf);
+    font-weight: bold;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+
+/*body */
+
+body {
+    background-color: #2E3139;
+}
+
+.hdr {
+    background-color: #636269;
+    height: 70px;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.ska {
+    font-family: 'C S';
+    font-size: 50px;
+    position: relative;
+    top: -62px;
+    left: 45px;
+    display: inline-block;
+    transition: transform 0.150s;
+}
+
+.strike {
+    color: #FEAD1B;
+}
+
+.assist {
+    color: #27397E;
+
+}
+
+.ska:hover {
+    transform: scaleX(1.2);
+}
+
+.nav{
+    position: absolute;
+    top: 12px;
+    right: 100px;
+    font-size: 40px;
+    font-family: 'C S';
+    float: right;
+}
+
+.nav .con {
+    color: aliceblue;
+    padding: 10px 20px; 
+    border: 1px solid transparent; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.nav .con:hover {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-color: rgba(255, 255, 255, 0.5); 
+}
+
+.container {
+    height: 80px;
+    position: relative;
+    text-align: left;
+    top: 150px;
+    margin-left: 50px;
+}
+
+.item {
+    display: inline-block;
+    width: 300px;
+    padding: 50px;
+    text-align: center; 
+    line-height: 50px; 
+    margin: 20px; 
+    background-color: hsl(228, 10%, 29%) ; 
+    font-family: 'C S';
+    color: #b9b1a2;
+    font-size: 50px;
+    position: relative;
+    user-select: none;
+    box-shadow: inset 0px 0px 26px 4px rgba(0,0,0,0.75);
+
+}
+
+.item1, .item2 { 
+    transition: border-color 0.35s;
+    transition: color 0.35s;
+    border-radius: 20px; 
+    border: 10px solid transparent; 
+}
+
+.item1:hover, .item2:hover {
+    border-color: #FEAD1B; 
+    color: #FEAD1B;
+}
+
+.csimg  {
+    max-width: 70%;
+    position: fixed;
+    left: 870px;
+    top: 100px;
+    opacity: 30%;
+    user-select: none;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color:  #636269;
+    width: 2085px;
+    height: 84px;
+    position: fixed;
+    top: 950px;
+    text-align: center;
+    box-shadow: 100%;
+    box-shadow: 0px 34px 41px 20px rgba(0,0,0,0.79);
+}       
+
+footer .txt1 {
+    font-size: 20px;
+    font-family: 'Lato';
+    color: antiquewhite;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+footer .txt2 {
+    font-size: 10px;
+    font-family: 'Lato';
+    color: antiquewhite;
+    position: relative;
+    top: 35px;
+    right: 40px;
+    text-align: end;
+}
+
+footer .txt3 {
+    font-size: 15px;
+    font-family: 'Lato';
+    color: rgb(253, 214, 162);
+    position: relative;
+    top: 20px;
+    right: -500px;
+    text-align: end;
+}
+
+
+
+
+/* SPRAY */
+
+.ak {
+    background: #FEAD1B;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 20px;
+    width: 200px;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    background-color:  hsl(228, 10%, 29%);
+    box-shadow: inset 0px 0px 26px 4px rgba(0,0,0,0.75);
+    border: 10px solid transparent; 
+}
+
+.ak:hover {
+    transition: color 0.3s;
+    transition: border-color 0.3s;
+    border-radius: 20px; 
+    border: 10px solid transparent; 
+    border-color: #FEAD1B;
+}
+
+.akdw video{
+    position: relative;
+    display: inline-block;
+}
+
+.akdwc {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: fixed;
+    left: 1500px;
+    top: 230px;
+  }
+
+.akdw:hover .akdwc {
+    display: block;
+  }
+
+.m4 {
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 20px;
+    width: 200px;
+    position: fixed;
+    top: 200px;
+    left: 300px;
+    background-color:  hsl(228, 10%, 29%);
+    box-shadow: inset 0px 0px 26px 4px rgba(0,0,0,0.75);
+    border: 10px solid transparent; 
+}
+.m4:hover {
+    transition: color 0.3s;
+    transition: border-color 0.3s;
+    border-radius: 20px; 
+    border: 10px solid transparent; 
+    border-color: #FEAD1B;
+}
+
+
+.m4dwc {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: fixed;
+    left: 1500px;
+    top: 230px;
+  }
+
+.m4dw:hover .m4dwc {
+    display: block;
+  }
+
+.m4a4 {
+    background: #FEAD1B;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 20px;
+    width: 200px;
+    position: fixed;
+    top: 350px;
+    left: 50px;
+    background-color:  hsl(228, 10%, 29%);
+    box-shadow: inset 0px 0px 26px 4px rgba(0,0,0,0.75);
+    border: 10px solid transparent; 
+}
+
+.m4a4:hover {
+    transition: color 0.3s;
+    transition: border-color 0.3s;
+    border-radius: 20px; 
+    border: 10px solid transparent; 
+    border-color: #FEAD1B;
+}
+
+.m4a4dwc {
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: fixed;
+    left: 1500px;
+    top: 230px;
+  }
+
+.m4a4dw:hover .m4a4dwc {
+    display: block;
+  }
+
+
+  
+/* CSS DE SMOKES */
+  
+.containersm {
+      height: 80px;
+      position: relative;
+      text-align: left;
+      top: 150px;
+      margin-left: 50px;
+
+  }
+  
+.itemsm {
+    display: inline-block;
+    width: 300px;
+    padding: 50px;
+    text-align: center; 
+    line-height: 50px; 
+    margin: 20px; 
+    background-color:  hsl(228, 10%, 29%) ; 
+    font-family: 'C S';
+    color: #FEAD1B;
+    font-size: 50px;
+    position: relative;
+    user-select: none;
+    color: #b9b1a2;
+    box-shadow: inset 0px 0px 26px 4px rgba(0,0,0,0.75);
+}
+
+
+.item1, .item2 { 
+    transition: color 0.3s;
+    transition: border-color 0.3s;
+    border-radius: 20px; 
+    border: 10px solid transparent; 
+}
+
+
+.item1:hover, .item2:hover {
+    border-color: #FEAD1B; 
+}
+
+.inf {
+    width: 100px;
+
+}
+
+.mir {
+    width: 102px;
+}
+
+
+/* CSS SMOKES INFERNO */
+
+.sminf {
+    width: 700px;
+    user-select: none;
+}
+
+
+.ctinf {
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -565px;
+    left: 400px;
+    transition: transform 0.3s ease;
+    background-color:#FEAD1B ; 
+    border: 4px solid #FEAD1B ;
+    opacity: 50%;
+}
+
+.ctinf:hover {
+    transform: scale(2);
+    opacity: 100%;
+}
+
+.ctinfdwc {
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+    position: fixed;
+    left: 1500px;
+    top: 185px;
+  }
+
+.ctinfdwc p{
+    position: absolute;
+    font-size: 75px;
+    font-family: 'C S';
+    color: #FEAD1B;
+    top: 15px;
+    left: -61.5%;
+    text-align: start;
+}
+
+.ctinfdw:hover .ctinfdwc {
+    display: block;
+  }
+
+.ctinfvid {
+    width: 800px;
+    position: relative;
+    top: 100px;
+    right: 500px;
+    border-radius: 20px;
+    border: 10px solid #FEAD1B;
+}
+
+.iginf {
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -680px;
+    left: 340px;
+    transition: transform 0.3s ease;
+    background-color:#FEAD1B ; 
+    border: 4px solid #FEAD1B ; 
+    opacity: 50%;
+}
+
+.iginf:hover {
+    transform: scale(2);
+    opacity: 100%;
+}
+
+.iginfdwc {
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+    position: fixed;
+    left: 1500px;
+    top: 185px;
+  }
+
+.iginfdwc p{
+    position: absolute;
+    font-size: 75px;
+    font-family: 'C S';
+    color: #FEAD1B;
+    top: 15px;
+    left: -61.5%;
+    text-align: start;
+}
+
+
+.iginfdw:hover .iginfdwc {
+    display: block;
+  }
+
+.iginfvid {
+    width: 800px;
+    position: relative;
+    top: 100px;
+    right: 500px;
+    border-radius: 20px;
+    border: 10px solid #FEAD1B;
+}
+
+
+
+.stinf {
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -640px;
+    left: 345px;
+    transition: transform 0.3s ease;
+    background-color:#FEAD1B ; 
+    border: 4px solid #FEAD1B ; 
+    opacity: 50%;
+}
+
+.stinf:hover {
+    transform: scale(2);
+    opacity: 100%;
+}
+
+.stinfdwc {
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+    position: fixed;
+    left: 1500px;
+    top: 185px;
+  }
+
+.stinfdwc p{
+    position: absolute;
+    font-size: 75px;
+    font-family: 'C S';
+    color: #FEAD1B;
+    top: 15px;
+    left: -61.5%;
+    text-align: start;
+}
+.stinfdw:hover .stinfdwc {
+    display: block;
+  }
+
+.stinfvid {
+    width: 800px;
+    position: relative;
+    top: 100px;
+    right: 500px;
+    border-radius: 20px;
+    border: 10px solid #FEAD1B;
+}
+
+
+.fctinf {
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -700px;
+    left: 480px;
+    transition: transform 0.3s ease;
+    background-color:#FEAD1B ; 
+    border: 4px solid #FEAD1B ;
+    opacity: 50%;
+}
+
+.fctinf:hover {
+    transform: scale(2);
+    opacity: 100%;
+}
+
+.fctinfdwc {
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+    position: fixed;
+    left: 1500px;
+    top: 185px;
+  }
+
+.fctinfdwc p{
+    position: absolute;
+    font-size: 75px;
+    font-family: 'C S';
+    color: #FEAD1B;
+    top: 15px;
+    left: -61.5%;
+    text-align: start;
+}
+
+.fctinfdw:hover .fctinfdwc {
+    display: block;
+  }
+
+.fctinfvid {
+    width: 800px;
+    position: relative;
+    top: 100px;
+    right: 500px;
+    border-radius: 20px;
+    border: 10px solid #FEAD1B;
+}
+
+
+.arcinf {
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -510px;
+    left: 539px;
+    transition: transform 0.3s ease;
+    background-color:#FEAD1B ; 
+    border: 4px solid #FEAD1B ;
+    opacity: 50%;
+}
+
+.arcinf:hover {
+    transform: scale(2);
+    opacity: 100%;
+}
+
+.arcinfdwc {
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+    position: fixed;
+    left: 1500px;
+    top: 185px;
+  }
+
+.arcinfdwc p{
+    position: absolute;
+    font-size: 75px;
+    font-family: 'C S';
+    color: #FEAD1B;
+    top: 15px;
+    left: -61.5%;
+    text-align: start;
+}
+
+.arcinfdw:hover .arcinfdwc {
+    display: block;
+  }
+
+.arcinfvid {
+    width: 800px;
+    position: relative;
+    top: 100px;
+    right: 500px;
+    border-radius: 20px;
+    border: 10px solid #FEAD1B;
+}
+
